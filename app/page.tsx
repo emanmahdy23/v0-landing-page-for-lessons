@@ -2,8 +2,7 @@
 
 import { Navbar } from '@/components/navbar'
 import { Carousel } from '@/components/carousel'
-import { AddressSection } from '@/components/address-section'
-import { ContactSection } from '@/components/contact-section'
+import { FooterSection } from '@/components/footer-section'
 
 export default function Home() {
   const handleBookLesson = () => {
@@ -37,11 +36,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Address Section */}
-      <AddressSection />
-
-      {/* Contact Section */}
-      <ContactSection />
+      {/* Footer Section with Address and Contact */}
+      <FooterSection />
     </main>
   )
 }
