@@ -31,7 +31,7 @@ export default function Home() {
             onClick={handleBookLesson}
             className="px-12 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl active:scale-95"
           >
-            احجز درسك الآن
+            احجز الآن
           </button>
         </div>
       </div>
