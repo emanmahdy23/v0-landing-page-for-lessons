@@ -7,11 +7,12 @@ export function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAutoPlay, setIsAutoPlay] = useState(true)
 
-  // صور عشوائية من Unsplash (تعليم وتدريب)
+  // صور من الدروس والطلاب
   const images = [
-    'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=500&fit=crop',
-    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&h=500&fit=crop',
-    'https://images.unsplash.com/photo-1516321318423-f06f70504c11?w=1200&h=500&fit=crop'
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.32-uqRtk14tR8b5xp78Y5e0LtOkncSv4p.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.31-N5IKUDHNOgaetZTqPdvOfKDmsoMriC.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.32%20%282%29-ctNO8drpp9435EK8cVdzM354YWGaVU.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.32%20%281%29-5YQh8qxsqxdgfyfaFQxzVGT3MiCla0.jpeg'
   ]
 
   useEffect(() => {
