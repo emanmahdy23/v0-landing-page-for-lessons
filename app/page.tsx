@@ -2,6 +2,8 @@
 
 import { Navbar } from '@/components/navbar'
 import { Carousel } from '@/components/carousel'
+import { AddressSection } from '@/components/address-section'
+import { ContactSection } from '@/components/contact-section'
 
 export default function Home() {
   const handleBookLesson = () => {
@@ -33,40 +35,13 @@ export default function Home() {
             احجز درسك الآن
           </button>
         </div>
-
-        {/* معلومات إضافية */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center p-6">
-            <div className="text-4xl mb-4">📚</div>
-            <h3 className="text-xl font-semibold mb-2 text-foreground">
-              دروس احترافية
-            </h3>
-            <p className="text-muted-foreground">
-              معلمين ذوي خبرة عالية لتقديم أفضل تجربة تعليمية
-            </p>
-          </div>
-
-          <div className="text-center p-6">
-            <div className="text-4xl mb-4">⏰</div>
-            <h3 className="text-xl font-semibold mb-2 text-foreground">
-              وقت مناسب
-            </h3>
-            <p className="text-muted-foreground">
-              احجز الدرس في الوقت الذي يناسبك بسهولة
-            </p>
-          </div>
-
-          <div className="text-center p-6">
-            <div className="text-4xl mb-4">💬</div>
-            <h3 className="text-xl font-semibold mb-2 text-foreground">
-              تواصل سهل
-            </h3>
-            <p className="text-muted-foreground">
-              نحن هنا للإجابة على جميع استفساراتك
-            </p>
-          </div>
-        </div>
       </div>
+
+      {/* Address Section */}
+      <AddressSection />
+
+      {/* Contact Section */}
+      <ContactSection />
     </main>
   )
 }
