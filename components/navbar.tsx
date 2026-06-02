@@ -14,7 +14,7 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 bg-[#0f1f2e] shadow-lg border-b border-[#2a3f52]">
       <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between relative">
         {/* خط ذهبي فاصل */}
-        <div className="absolute left-0 right-0 top-1/2 h-px bg-gradient-to-r from-transparent via-[#d4a574] to-transparent transform -translate-y-1/2"></div>
+        {/* <div className="absolute left-0 right-0 top-1/2 h-px bg-gradient-to-r from-transparent via-[#d4a574] to-transparent transform -translate-y-1/2"></div> */}
 
         {/* الجزء الأيمن - اسم المعلم */}
         {/* <button
