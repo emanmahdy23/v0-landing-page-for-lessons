@@ -17,12 +17,12 @@ export function Navbar() {
         <div className="absolute left-0 right-0 top-1/2 h-px bg-gradient-to-r from-transparent via-[#d4a574] to-transparent transform -translate-y-1/2"></div>
 
         {/* الجزء الأيمن - اسم المعلم */}
-        <button
+        {/* <button
           onClick={scrollToTop}
           className="relative z-10 px-4 py-2 text-2xl font-bold text-[#ffffff] hover:text-[#d4a574] transition-colors cursor-pointer"
         >
           ✨ محمد الدسونسي ✨
-        </button>
+        </button> */}
 
         {/* الجزء الأيسر - أزرار التنقل */}
         <div className="flex items-center gap-4">
