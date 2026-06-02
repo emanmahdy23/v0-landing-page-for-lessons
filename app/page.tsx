@@ -29,9 +29,9 @@ export default function Home() {
         <div className="flex justify-center">
           <button
             onClick={handleBookLesson}
-            className="px-12 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl active:scale-95"
+            className="px-12 py-4 bg-[#d4a574] text-[#0f1f2e] rounded-lg font-bold text-lg hover:bg-[#e8b88f] transition-all shadow-lg hover:shadow-2xl active:scale-95 border-2 border-[#d4a574]"
           >
-            احجز الآن
+            ✨ احجز درسك الآن ✨
           </button>
         </div>
       </div>
