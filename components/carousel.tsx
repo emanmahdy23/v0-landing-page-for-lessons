@@ -9,7 +9,6 @@ export function Carousel() {
 
   // صور من الدروس والطلاب
   const images = [
-  
     'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.31-N5IKUDHNOgaetZTqPdvOfKDmsoMriC.jpeg',
     'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.32%20%282%29-ctNO8drpp9435EK8cVdzM354YWGaVU.jpeg',
     'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-01%20at%2021.57.32%20%281%29-5YQh8qxsqxdgfyfaFQxzVGT3MiCla0.jpeg'
