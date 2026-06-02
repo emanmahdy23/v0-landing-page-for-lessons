@@ -28,8 +28,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <button
             onClick={() => scrollToSection('address-section')}
-            className="relative z-10 px-6 py-2 border-2 border-[#d4a574] rounded-full text-[#d4a574] font-semibold hover:bg-[#d4a574] hover:text-[#0f1f2e] transition-all cursor-pointer text-sm"
-            {/* className="relative z-10 px-6 py-2 text-[#d4a574] font-semibold hover:text-[#ffffff] transition-colors cursor-pointer text-sm" */}
+             className="relative z-10 px-6 py-2 text-[#d4a574] font-semibold hover:text-[#ffffff] transition-colors cursor-pointer text-sm" 
           >
             العنوان
           </button>
