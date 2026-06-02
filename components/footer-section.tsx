@@ -5,11 +5,34 @@ import Link from 'next/link'
 
 export function FooterSection() {
   return (
-    <section
-      id="contact-section"
-      className="bg-[#0f1f2e] py-16 px-4 relative"
-    >
-      <div className="max-w-6xl mx-auto">
+    <>
+      {/* قسم العنوان */}
+      <section
+        id="address-section"
+        className="bg-[#0f1f2e] py-12 px-4 border-b border-[#2a3f52]"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-center gap-6">
+            <MapPin className="w-8 h-8 text-[#d4a574]" />
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-[#d4a574] mb-2">
+                موقعنا
+              </h3>
+              <p className="text-[#a0b0c0] text-lg">
+                دمنهور - اسفل الكوبري العلوي بجوار كوكتيل للعصير
+              </p>
+            </div>
+            <MapPin className="w-8 h-8 text-[#d4a574]" />
+          </div>
+        </div>
+      </section>
+
+      {/* قسم التواصل معانا */}
+      <section
+        id="contact-section"
+        className="bg-[#0f1f2e] py-16 px-4 relative"
+      >
+        <div className="max-w-6xl mx-auto">
         {/* العنوان الرئيسي */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
@@ -67,19 +90,13 @@ export function FooterSection() {
         </div>
 
         {/* خط فاصل مع نقطة ذهبية */}
-        <div className="flex items-center gap-4 mb-12 px-4">
+        <div className="flex items-center gap-4 px-4">
           <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#2a3f52]"></div>
           <div className="w-2 h-2 bg-[#d4a574] rounded-full"></div>
           <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#2a3f52]"></div>
         </div>
-
-        {/* حقوق النشر */}
-        <div className="text-center">
-          <p className="text-[#a0b0c0] text-sm">
-            جميع الحقوق محفوظة © 2026 - استاذ محمد الدسونسي
-          </p>
-        </div>
       </div>
     </section>
+    </>
   )
 }
