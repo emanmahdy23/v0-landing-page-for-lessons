@@ -35,7 +35,7 @@ export function Carousel() {
 
   return (
     <div
-      className="relative w-full h-96 bg-[#0f1f2e] rounded-lg overflow-hidden group shadow-xl border border-[#2a3f52]"
+      className="relative w-full h-64 md:h-96 lg:h-[500px] bg-[#0f1f2e] rounded-lg overflow-hidden group shadow-xl border border-[#2a3f52]"
       onMouseEnter={() => setIsAutoPlay(false)}
       onMouseLeave={() => setIsAutoPlay(true)}
     >
@@ -51,7 +51,7 @@ export function Carousel() {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               crossOrigin="anonymous"
             />
             <div className="absolute inset-0 bg-black/20"></div>
