@@ -19,7 +19,7 @@ export function FooterSection() {
                 موقعنا
               </h3>
               <p className="text-[#a0b0c0] text-lg">
-                دمنهور - اسفل الكوبري العلوي بجوار كوكتيل للعصير
+                شارع محمصه انوار المصطفي أسفل الكوبري العلوي
               </p>
             </div>
             <MapPin className="w-8 h-8 text-[#d4a574]" />
