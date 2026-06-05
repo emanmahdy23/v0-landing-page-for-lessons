@@ -30,7 +30,7 @@ export function AddressSection() {
                 دمنهور
               </h3>
               <p className="text-lg text-foreground leading-relaxed">
-                اسفل الكوبري العلوي بجوار كوكتيل للعصير
+               شارع محمصه انوار المصطفي أسفل الكوبري العلوي 
               </p>
               <p className="text-base text-muted-foreground mt-4">
                 يمكنك زيارتنا في هذا الموقع المتميز
