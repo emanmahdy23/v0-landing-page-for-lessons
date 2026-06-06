@@ -12,13 +12,15 @@ export function FooterSection() {
         className="bg-[#0f1f2e] py-12 px-4 border-b border-[#2a3f52]"
       >
         <div className="max-w-6xl mx-auto">
+          {/* العنوان الرئيسي */}
+          <h2 className="text-4xl font-bold text-center text-[#d4a574] mb-12">
+            العنوان
+          </h2>
+
           {/* العنوان الأول */}
           <div className="flex items-center justify-center gap-6 mb-8">
             <MapPin className="w-8 h-8 text-[#d4a574]" />
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-[#d4a574] mb-2">
-                العنوان
-              </h3>
               <p className="text-[#a0b0c0] text-lg">
                 شارع محمصه انوار المصطفي أسفل الكوبري العلوي
               </p>
@@ -37,9 +39,6 @@ export function FooterSection() {
           <div className="flex items-center justify-center gap-6">
             <MapPin className="w-8 h-8 text-[#d4a574]" />
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-[#d4a574] mb-2">
-                العنوان
-              </h3>
               <p className="text-[#a0b0c0] text-lg">
                 أول شارع الصاغه ـ بجوار مسجد الشوربجي بالقلعة
               </p>
