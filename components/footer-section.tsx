@@ -12,14 +12,35 @@ export function FooterSection() {
         className="bg-[#0f1f2e] py-12 px-4 border-b border-[#2a3f52]"
       >
         <div className="max-w-6xl mx-auto">
+          {/* العنوان الرئيسي */}
+          <h2 className="text-4xl font-bold text-center text-[#d4a574] mb-12">
+            العنوان
+          </h2>
+
+          {/* العنوان الأول */}
+          <div className="flex items-center justify-center gap-6 mb-8">
+            <MapPin className="w-8 h-8 text-[#d4a574]" />
+            <div className="text-center">
+              <p className="text-[#a0b0c0] text-lg">
+                شارع محمصه انوار المصطفي أسفل الكوبري العلوي
+              </p>
+            </div>
+            <MapPin className="w-8 h-8 text-[#d4a574]" />
+          </div>
+
+          {/* خط فاصل */}
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#2a3f52]"></div>
+            <div className="w-2 h-2 bg-[#d4a574] rounded-full"></div>
+            <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#2a3f52]"></div>
+          </div>
+
+          {/* العنوان الثاني */}
           <div className="flex items-center justify-center gap-6">
             <MapPin className="w-8 h-8 text-[#d4a574]" />
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-[#d4a574] mb-2">
-                موقعنا
-              </h3>
               <p className="text-[#a0b0c0] text-lg">
-                شارع محمصه انوار المصطفي أسفل الكوبري العلوي
+                أول شارع الصاغه ـ بجوار مسجد الشوربجي بالقلعة
               </p>
             </div>
             <MapPin className="w-8 h-8 text-[#d4a574]" />
@@ -36,8 +57,8 @@ export function FooterSection() {
         {/* العنوان الرئيسي */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            <span className="text-white">تواصل </span>
-            <span className="text-[#d4a574]">معانا</span>
+            <span className="text-white">تواصل مع </span>
+            <span className="text-[#d4a574]">أ/ محمد الدسونسي</span>
           </h2>
           <p className="text-[#a0b0c0] text-lg max-w-2xl mx-auto">
             متواجدون على منصات التواصل الاجتماعي — تابعونا ودايماً هنرد عليكم

@@ -10,7 +10,9 @@ export function Carousel() {
   // صور من الدروس والطلاب
   const images = [
     'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-05%20at%2016.56.08-pubHPIUeUp5eUic6uQdAN6mzKcE13A.jpeg',
-    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-05%20at%2016.56.07-43Ag9gsFfyOfiWkZ4dipExkImC7Nox.jpeg'
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-05%20at%2016.56.07-43Ag9gsFfyOfiWkZ4dipExkImC7Nox.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-07%20at%2002.44.43-82V6SsMzydwaO4YebQhImyfQlMMcTM.jpeg',
+    'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-07%20at%2002.44.44-LZ2iLykXEZcXJ6uyxxpa0FQ2EkhQeO.jpeg'
   ]
 
   useEffect(() => {

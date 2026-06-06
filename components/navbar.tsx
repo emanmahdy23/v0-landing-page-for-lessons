@@ -36,7 +36,7 @@ export function Navbar() {
             onClick={() => scrollToSection('contact-section')}
             className="relative z-10 px-6 py-2 border-2 border-[#d4a574] rounded-full text-[#d4a574] font-semibold hover:bg-[#d4a574] hover:text-[#0f1f2e] transition-all cursor-pointer text-sm"
           >
-            تواصل معانا
+            تواصل مع أ/ محمد الدسونسي
           </button>
         </div>
       </div>
